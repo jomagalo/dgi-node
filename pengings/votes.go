@@ -2,12 +2,12 @@ package pengings
 
 import (
 	"github.com/deckarep/golang-set"
-	"github.com/idena-network/idena-go/blockchain"
-	"github.com/idena-network/idena-go/blockchain/types"
-	"github.com/idena-network/idena-go/common/eventbus"
-	"github.com/idena-network/idena-go/core/appstate"
-	"github.com/idena-network/idena-go/core/upgrade"
-	"github.com/idena-network/idena-go/events"
+	"github.com/jomagalo/dgi-node/blockchain"
+	"github.com/jomagalo/dgi-node/blockchain/types"
+	"github.com/jomagalo/dgi-node/common/eventbus"
+	"github.com/jomagalo/dgi-node/core/appstate"
+	"github.com/jomagalo/dgi-node/core/upgrade"
+	"github.com/jomagalo/dgi-node/events"
 	"sync"
 )
 

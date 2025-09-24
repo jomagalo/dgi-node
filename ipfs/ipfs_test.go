@@ -2,9 +2,9 @@ package ipfs
 
 import (
 	"github.com/google/tink/go/subtle/random"
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/common/eventbus"
-	"github.com/idena-network/idena-go/config"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/common/eventbus"
+	"github.com/jomagalo/dgi-node/config"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

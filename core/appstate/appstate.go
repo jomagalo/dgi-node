@@ -1,11 +1,11 @@
 package appstate
 
 import (
-	"github.com/idena-network/idena-go/blockchain/types"
-	"github.com/idena-network/idena-go/common/eventbus"
-	"github.com/idena-network/idena-go/core/state"
-	"github.com/idena-network/idena-go/core/validators"
-	models "github.com/idena-network/idena-go/protobuf"
+	"github.com/jomagalo/dgi-node/blockchain/types"
+	"github.com/jomagalo/dgi-node/common/eventbus"
+	"github.com/jomagalo/dgi-node/core/state"
+	"github.com/jomagalo/dgi-node/core/validators"
+	models "github.com/jomagalo/dgi-node/protobuf"
 	"github.com/pkg/errors"
 	dbm "github.com/tendermint/tm-db"
 	"sync"

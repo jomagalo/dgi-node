@@ -1,9 +1,9 @@
 package wasm
 
 import (
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/crypto"
-	"github.com/idena-network/idena-wasm-binding/lib"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/crypto"
+	"github.com/jomagalo/dgi-wasm-binding/lib"
 )
 
 func ComputeContractAddrWithUnpackedArgs(code []byte, args [][]byte, nonce []byte) common.Address {

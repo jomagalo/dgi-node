@@ -1,7 +1,7 @@
 package api
 
 import (
-	"github.com/idena-network/idena-go/state"
+	"github.com/jomagalo/dgi-node/state"
 )
 
 type BlockchainInitialApi struct {

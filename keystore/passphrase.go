@@ -38,9 +38,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/common/math"
-	"github.com/idena-network/idena-go/crypto"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/common/math"
+	"github.com/jomagalo/dgi-node/crypto"
 	"github.com/pborman/uuid"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"
@@ -120,7 +120,7 @@ func (ks keyStorePassphrase) StoreKey(filename string, key *Key, auth string) er
 				"This indicates that the keystore is corrupted. \n" +
 				"The corrupted file is stored at \n%v\n" +
 				"Please file a ticket at:\n\n" +
-				"https://github.com/idena-network/idena-go/issues." +
+				"https://github.com/jomagalo/dgi-node/issues." +
 				"The error was : %s"
 			return fmt.Errorf(msg, tmpName, err)
 		}

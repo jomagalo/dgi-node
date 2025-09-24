@@ -4,11 +4,11 @@ import (
 	"encoding/hex"
 	"fmt"
 	"github.com/awnumar/memguard"
-	"github.com/idena-network/idena-go/blockchain/types"
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/crypto"
-	"github.com/idena-network/idena-go/crypto/ecies"
-	"github.com/idena-network/idena-go/crypto/vrf/p256"
+	"github.com/jomagalo/dgi-node/blockchain/types"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/crypto"
+	"github.com/jomagalo/dgi-node/crypto/ecies"
+	"github.com/jomagalo/dgi-node/crypto/vrf/p256"
 	"os"
 )
 

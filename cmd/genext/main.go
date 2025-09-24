@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/idena-network/idena-go/common/eventbus"
-	"github.com/idena-network/idena-go/config"
-	"github.com/idena-network/idena-go/core/appstate"
-	"github.com/idena-network/idena-go/core/state"
-	"github.com/idena-network/idena-go/database"
-	"github.com/idena-network/idena-go/log"
+	"github.com/jomagalo/dgi-node/common/eventbus"
+	"github.com/jomagalo/dgi-node/config"
+	"github.com/jomagalo/dgi-node/core/appstate"
+	"github.com/jomagalo/dgi-node/core/state"
+	"github.com/jomagalo/dgi-node/database"
+	"github.com/jomagalo/dgi-node/log"
 	"github.com/pkg/errors"
 	"github.com/syndtr/goleveldb/leveldb/filter"
 	"github.com/syndtr/goleveldb/leveldb/opt"

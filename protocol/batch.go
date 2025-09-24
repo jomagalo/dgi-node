@@ -2,9 +2,9 @@ package protocol
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/idena-network/idena-go/blockchain/types"
-	"github.com/idena-network/idena-go/core/state"
-	models "github.com/idena-network/idena-go/protobuf"
+	"github.com/jomagalo/dgi-node/blockchain/types"
+	"github.com/jomagalo/dgi-node/core/state"
+	models "github.com/jomagalo/dgi-node/protobuf"
 	"github.com/libp2p/go-libp2p-core/peer"
 )
 

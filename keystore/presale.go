@@ -25,7 +25,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/idena-network/idena-go/crypto"
+	"github.com/jomagalo/dgi-node/crypto"
 	"github.com/pborman/uuid"
 	"golang.org/x/crypto/pbkdf2"
 )

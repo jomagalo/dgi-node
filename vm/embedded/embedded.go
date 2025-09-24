@@ -1,10 +1,10 @@
 package embedded
 
 import (
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/stats/collector"
-	env2 "github.com/idena-network/idena-go/vm/env"
-	"github.com/idena-network/idena-go/vm/helpers"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/stats/collector"
+	env2 "github.com/jomagalo/dgi-node/vm/env"
+	"github.com/jomagalo/dgi-node/vm/helpers"
 	"math/big"
 )
 

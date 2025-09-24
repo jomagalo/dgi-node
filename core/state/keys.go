@@ -2,7 +2,7 @@ package state
 
 import (
 	"encoding/binary"
-	"github.com/idena-network/idena-go/common"
+	"github.com/jomagalo/dgi-node/common"
 	"github.com/pkg/errors"
 	dbm "github.com/tendermint/tm-db"
 )

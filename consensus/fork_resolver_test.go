@@ -1,11 +1,11 @@
 package consensus
 
 import (
-	"github.com/idena-network/idena-go/blockchain"
-	"github.com/idena-network/idena-go/blockchain/types"
-	"github.com/idena-network/idena-go/crypto"
-	"github.com/idena-network/idena-go/protocol"
-	"github.com/idena-network/idena-go/stats/collector"
+	"github.com/jomagalo/dgi-node/blockchain"
+	"github.com/jomagalo/dgi-node/blockchain/types"
+	"github.com/jomagalo/dgi-node/crypto"
+	"github.com/jomagalo/dgi-node/protocol"
+	"github.com/jomagalo/dgi-node/stats/collector"
 	"github.com/stretchr/testify/require"
 	"strings"
 	"testing"

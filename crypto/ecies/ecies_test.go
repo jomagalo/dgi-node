@@ -37,12 +37,12 @@ import (
 	"encoding/hex"
 	"flag"
 	"fmt"
-	"github.com/idena-network/idena-go/common"
+	"github.com/jomagalo/dgi-node/common"
 	"github.com/stretchr/testify/require"
 	"math/big"
 	"testing"
 
-	"github.com/idena-network/idena-go/crypto"
+	"github.com/jomagalo/dgi-node/crypto"
 )
 
 var dumpEnc bool

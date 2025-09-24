@@ -32,7 +32,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/idena-network/idena-go/log"
+	"github.com/jomagalo/dgi-node/log"
 )
 
 var (

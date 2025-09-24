@@ -19,7 +19,7 @@ import (
 	"crypto/rand"
 	"encoding/hex"
 	"fmt"
-	"github.com/idena-network/idena-go/crypto/vrf"
+	"github.com/jomagalo/dgi-node/crypto/vrf"
 	"github.com/stretchr/testify/require"
 	"math"
 	"testing"

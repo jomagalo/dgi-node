@@ -21,7 +21,7 @@ package keystore
 import (
 	"time"
 
-	"github.com/idena-network/idena-go/log"
+	"github.com/jomagalo/dgi-node/log"
 	"github.com/rjeczalik/notify"
 )
 

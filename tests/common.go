@@ -3,9 +3,9 @@ package tests
 import (
 	"crypto/ecdsa"
 	"github.com/google/tink/go/subtle/random"
-	"github.com/idena-network/idena-go/blockchain/types"
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/crypto"
+	"github.com/jomagalo/dgi-node/blockchain/types"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/crypto"
 	"math/big"
 )
 

@@ -28,9 +28,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/common/math"
-	"github.com/idena-network/idena-go/crypto/sha3"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/common/math"
+	"github.com/jomagalo/dgi-node/crypto/sha3"
 )
 
 var (

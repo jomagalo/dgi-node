@@ -1,7 +1,7 @@
 package secstore
 
 import (
-	"github.com/idena-network/idena-go/crypto"
+	"github.com/jomagalo/dgi-node/crypto"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

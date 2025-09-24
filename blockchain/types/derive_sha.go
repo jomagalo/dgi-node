@@ -19,7 +19,7 @@ package types
 import (
 	"encoding/binary"
 	"github.com/cosmos/iavl"
-	"github.com/idena-network/idena-go/common"
+	"github.com/jomagalo/dgi-node/common"
 	db "github.com/tendermint/tm-db"
 )
 

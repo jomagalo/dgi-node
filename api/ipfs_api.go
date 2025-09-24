@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/idena-network/idena-go/common/hexutil"
-	"github.com/idena-network/idena-go/ipfs"
+	"github.com/jomagalo/dgi-node/common/hexutil"
+	"github.com/jomagalo/dgi-node/ipfs"
 	cid2 "github.com/ipfs/go-cid"
 )
 

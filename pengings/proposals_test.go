@@ -1,8 +1,8 @@
 package pengings
 
 import (
-	"github.com/idena-network/idena-go/blockchain/types"
-	"github.com/idena-network/idena-go/common"
+	"github.com/jomagalo/dgi-node/blockchain/types"
+	"github.com/jomagalo/dgi-node/common"
 	"github.com/patrickmn/go-cache"
 	"github.com/stretchr/testify/require"
 	"testing"

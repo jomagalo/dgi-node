@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/idena-network/idena-go/ipfs"
-	"github.com/idena-network/idena-go/protocol"
+	"github.com/jomagalo/dgi-node/ipfs"
+	"github.com/jomagalo/dgi-node/protocol"
 )
 
 // NetApi offers helper utils

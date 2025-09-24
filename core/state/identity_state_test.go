@@ -2,7 +2,7 @@ package state
 
 import (
 	"crypto/rand"
-	"github.com/idena-network/idena-go/common"
+	"github.com/jomagalo/dgi-node/common"
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tm-db"
 	"testing"

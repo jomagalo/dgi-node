@@ -1,9 +1,9 @@
 package ceremony
 
 import (
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/config"
-	"github.com/idena-network/idena-go/core/state"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/config"
+	"github.com/jomagalo/dgi-node/core/state"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

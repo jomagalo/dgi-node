@@ -2,7 +2,7 @@ package keywords
 
 import (
 	"encoding/json"
-	"github.com/idena-network/idena-go/log"
+	"github.com/jomagalo/dgi-node/log"
 	"github.com/pkg/errors"
 )
 

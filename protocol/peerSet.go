@@ -2,7 +2,7 @@ package protocol
 
 import (
 	"errors"
-	"github.com/idena-network/idena-go/common"
+	"github.com/jomagalo/dgi-node/common"
 	peer2 "github.com/libp2p/go-libp2p-core/peer"
 	"math/rand"
 	"sync"

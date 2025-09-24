@@ -2,12 +2,12 @@ package env
 
 import (
 	"bytes"
-	"github.com/idena-network/idena-go/blockchain/types"
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/core/appstate"
-	"github.com/idena-network/idena-go/core/state"
-	"github.com/idena-network/idena-go/stats/collector"
-	"github.com/idena-network/idena-go/vm/costs"
+	"github.com/jomagalo/dgi-node/blockchain/types"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/core/appstate"
+	"github.com/jomagalo/dgi-node/core/state"
+	"github.com/jomagalo/dgi-node/stats/collector"
+	"github.com/jomagalo/dgi-node/vm/costs"
 	"github.com/pkg/errors"
 	"math/big"
 	"regexp"

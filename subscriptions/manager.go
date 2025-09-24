@@ -3,8 +3,8 @@ package subscriptions
 import (
 	"encoding/json"
 	"errors"
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/log"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/log"
 	"io/ioutil"
 	"os"
 	"path/filepath"

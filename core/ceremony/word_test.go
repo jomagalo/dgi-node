@@ -3,9 +3,9 @@ package ceremony
 import (
 	"fmt"
 	mapset "github.com/deckarep/golang-set"
-	"github.com/idena-network/idena-go/crypto"
-	"github.com/idena-network/idena-go/crypto/vrf"
-	"github.com/idena-network/idena-go/secstore"
+	"github.com/jomagalo/dgi-node/crypto"
+	"github.com/jomagalo/dgi-node/crypto/vrf"
+	"github.com/jomagalo/dgi-node/secstore"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/keystore"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/keystore"
 	"time"
 )
 

@@ -3,9 +3,9 @@ package types
 import (
 	"crypto/ecdsa"
 	"errors"
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/crypto"
-	"github.com/idena-network/idena-go/rlp"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/crypto"
+	"github.com/jomagalo/dgi-node/rlp"
 )
 
 // SignTx returns transaction signed with given private key

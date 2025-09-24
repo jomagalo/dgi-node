@@ -3,8 +3,8 @@ package protocol
 import (
 	"context"
 	"github.com/deckarep/golang-set"
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/config"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/config"
 	core "github.com/libp2p/go-libp2p-core"
 	"github.com/libp2p/go-libp2p-core/helpers"
 	"github.com/libp2p/go-libp2p-core/network"

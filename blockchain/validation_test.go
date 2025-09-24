@@ -1,10 +1,10 @@
 package blockchain
 
 import (
-	"github.com/idena-network/idena-go/blockchain/attachments"
-	"github.com/idena-network/idena-go/blockchain/types"
-	"github.com/idena-network/idena-go/blockchain/validation"
-	"github.com/idena-network/idena-go/crypto"
+	"github.com/jomagalo/dgi-node/blockchain/attachments"
+	"github.com/jomagalo/dgi-node/blockchain/types"
+	"github.com/jomagalo/dgi-node/blockchain/validation"
+	"github.com/jomagalo/dgi-node/crypto"
 	"github.com/stretchr/testify/require"
 	"math/big"
 	"testing"

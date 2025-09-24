@@ -1,11 +1,11 @@
 package embedded
 
 import (
-	"github.com/idena-network/idena-go/common"
-	math2 "github.com/idena-network/idena-go/common/math"
-	"github.com/idena-network/idena-go/stats/collector"
-	"github.com/idena-network/idena-go/vm/env"
-	"github.com/idena-network/idena-go/vm/helpers"
+	"github.com/jomagalo/dgi-node/common"
+	math2 "github.com/jomagalo/dgi-node/common/math"
+	"github.com/jomagalo/dgi-node/stats/collector"
+	"github.com/jomagalo/dgi-node/vm/env"
+	"github.com/jomagalo/dgi-node/vm/helpers"
 	"github.com/pkg/errors"
 	"github.com/shopspring/decimal"
 	"math/big"

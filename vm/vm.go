@@ -2,17 +2,17 @@ package vm
 
 import (
 	"fmt"
-	"github.com/idena-network/idena-go/blockchain/attachments"
-	"github.com/idena-network/idena-go/blockchain/types"
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/common/math"
-	"github.com/idena-network/idena-go/config"
-	"github.com/idena-network/idena-go/core/appstate"
-	"github.com/idena-network/idena-go/stats/collector"
-	"github.com/idena-network/idena-go/vm/costs"
-	"github.com/idena-network/idena-go/vm/embedded"
-	env2 "github.com/idena-network/idena-go/vm/env"
-	"github.com/idena-network/idena-go/vm/wasm"
+	"github.com/jomagalo/dgi-node/blockchain/attachments"
+	"github.com/jomagalo/dgi-node/blockchain/types"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/common/math"
+	"github.com/jomagalo/dgi-node/config"
+	"github.com/jomagalo/dgi-node/core/appstate"
+	"github.com/jomagalo/dgi-node/stats/collector"
+	"github.com/jomagalo/dgi-node/vm/costs"
+	"github.com/jomagalo/dgi-node/vm/embedded"
+	env2 "github.com/jomagalo/dgi-node/vm/env"
+	"github.com/jomagalo/dgi-node/vm/wasm"
 	"github.com/pkg/errors"
 )
 

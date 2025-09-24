@@ -2,10 +2,10 @@ package profile
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/ipfs"
-	models "github.com/idena-network/idena-go/protobuf"
-	"github.com/idena-network/idena-go/rlp"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/ipfs"
+	models "github.com/jomagalo/dgi-node/protobuf"
+	"github.com/jomagalo/dgi-node/rlp"
 	"github.com/pkg/errors"
 )
 

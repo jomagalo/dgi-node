@@ -28,8 +28,8 @@ import (
 	"time"
 
 	"github.com/deckarep/golang-set"
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/log"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/log"
 )
 
 // Minimum amount of time between cache reloads. This limit applies if the platform does

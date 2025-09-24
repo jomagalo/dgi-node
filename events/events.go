@@ -1,9 +1,9 @@
 package events
 
 import (
-	"github.com/idena-network/idena-go/blockchain/types"
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/common/eventbus"
+	"github.com/jomagalo/dgi-node/blockchain/types"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/common/eventbus"
 	iface "github.com/ipfs/interface-go-ipfs-core"
 	"github.com/libp2p/go-libp2p-core"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"

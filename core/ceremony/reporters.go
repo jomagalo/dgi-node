@@ -1,10 +1,10 @@
 package ceremony
 
 import (
-	"github.com/idena-network/idena-go/blockchain/types"
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/config"
-	"github.com/idena-network/idena-go/core/state"
+	"github.com/jomagalo/dgi-node/blockchain/types"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/config"
+	"github.com/jomagalo/dgi-node/core/state"
 )
 
 type reportersToReward struct {

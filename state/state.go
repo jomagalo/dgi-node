@@ -1,8 +1,8 @@
 package state
 
 import (
-	"github.com/idena-network/idena-go/common/eventbus"
-	"github.com/idena-network/idena-go/events"
+	"github.com/jomagalo/dgi-node/common/eventbus"
+	"github.com/jomagalo/dgi-node/events"
 )
 
 type NodeState struct {

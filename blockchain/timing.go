@@ -1,7 +1,7 @@
 package blockchain
 
 import (
-	"github.com/idena-network/idena-go/config"
+	"github.com/jomagalo/dgi-node/config"
 	"time"
 )
 

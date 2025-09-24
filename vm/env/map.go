@@ -1,6 +1,6 @@
 package env
 
-import "github.com/idena-network/idena-go/common"
+import "github.com/jomagalo/dgi-node/common"
 
 type Map struct {
 	env    Env

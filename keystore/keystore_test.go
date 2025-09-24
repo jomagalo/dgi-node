@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/idena-network/idena-go/common"
+	"github.com/jomagalo/dgi-node/common"
 )
 
 var testSigData = make([]byte, 32)

@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/idena-network/idena-go/crypto"
+	"github.com/jomagalo/dgi-node/crypto"
 	"math/big"
 	"testing"
 )

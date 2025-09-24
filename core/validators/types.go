@@ -1,5 +1,5 @@
 package validators
 
-import "github.com/idena-network/idena-go/common"
+import "github.com/jomagalo/dgi-node/common"
 
 type ValidNodes = []common.Address

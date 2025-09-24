@@ -23,8 +23,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"github.com/idena-network/idena-go/common/math"
-	"github.com/idena-network/idena-go/crypto/secp256k1"
+	"github.com/jomagalo/dgi-node/common/math"
+	"github.com/jomagalo/dgi-node/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

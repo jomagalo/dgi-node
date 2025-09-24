@@ -1,7 +1,7 @@
 package crypto
 
 import (
-	"github.com/idena-network/idena-go/crypto/sha3"
+	"github.com/jomagalo/dgi-node/crypto/sha3"
 	"hash"
 	"sync"
 )

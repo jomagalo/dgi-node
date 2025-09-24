@@ -2,8 +2,8 @@ package mempool
 
 import (
 	"crypto/ecdsa"
-	"github.com/idena-network/idena-go/crypto"
-	"github.com/idena-network/idena-go/crypto/ecies"
+	"github.com/jomagalo/dgi-node/crypto"
+	"github.com/jomagalo/dgi-node/crypto/ecies"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

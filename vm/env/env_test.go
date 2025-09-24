@@ -1,12 +1,12 @@
 package env
 
 import (
-	"github.com/idena-network/idena-go/blockchain/attachments"
-	"github.com/idena-network/idena-go/blockchain/types"
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/common/eventbus"
-	"github.com/idena-network/idena-go/core/appstate"
-	"github.com/idena-network/idena-go/crypto"
+	"github.com/jomagalo/dgi-node/blockchain/attachments"
+	"github.com/jomagalo/dgi-node/blockchain/types"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/common/eventbus"
+	"github.com/jomagalo/dgi-node/core/appstate"
+	"github.com/jomagalo/dgi-node/crypto"
 	"github.com/stretchr/testify/require"
 	db2 "github.com/tendermint/tm-db"
 	"math/big"

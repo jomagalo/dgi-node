@@ -29,8 +29,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/crypto"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/crypto"
 	"github.com/pborman/uuid"
 )
 

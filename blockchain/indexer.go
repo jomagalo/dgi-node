@@ -1,14 +1,14 @@
 package blockchain
 
 import (
-	"github.com/idena-network/idena-go/blockchain/attachments"
-	"github.com/idena-network/idena-go/blockchain/types"
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/common/eventbus"
-	"github.com/idena-network/idena-go/config"
-	"github.com/idena-network/idena-go/database"
-	"github.com/idena-network/idena-go/events"
-	"github.com/idena-network/idena-go/keystore"
+	"github.com/jomagalo/dgi-node/blockchain/attachments"
+	"github.com/jomagalo/dgi-node/blockchain/types"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/common/eventbus"
+	"github.com/jomagalo/dgi-node/config"
+	"github.com/jomagalo/dgi-node/database"
+	"github.com/jomagalo/dgi-node/events"
+	"github.com/jomagalo/dgi-node/keystore"
 	dbm "github.com/tendermint/tm-db"
 	"sync"
 )

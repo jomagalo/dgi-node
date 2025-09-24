@@ -22,7 +22,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/idena-network/idena-go/common"
+	"github.com/jomagalo/dgi-node/common"
 )
 
 type keyStorePlain struct {

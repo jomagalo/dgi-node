@@ -21,7 +21,7 @@ package protocol
 
 import (
 	"fmt"
-	"github.com/idena-network/idena-go/log"
+	"github.com/jomagalo/dgi-node/log"
 	"net"
 	"sort"
 	"time"

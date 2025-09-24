@@ -20,7 +20,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/idena-network/idena-go/log"
+	"github.com/jomagalo/dgi-node/log"
 )
 
 // StartHTTPEndpoint starts the HTTP RPC endpoint, configured with cors/vhosts/modules

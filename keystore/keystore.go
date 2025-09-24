@@ -25,7 +25,7 @@ import (
 	crand "crypto/rand"
 	"errors"
 	"fmt"
-	"github.com/idena-network/idena-go/blockchain/types"
+	"github.com/jomagalo/dgi-node/blockchain/types"
 	"os"
 	"path/filepath"
 	"reflect"
@@ -33,9 +33,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/idena-network/idena-go/common"
+	"github.com/jomagalo/dgi-node/common"
 
-	"github.com/idena-network/idena-go/crypto"
+	"github.com/jomagalo/dgi-node/crypto"
 )
 
 var (

@@ -2,11 +2,11 @@ package database
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/idena-network/idena-go/blockchain/types"
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/ipfs"
-	"github.com/idena-network/idena-go/log"
-	models "github.com/idena-network/idena-go/protobuf"
+	"github.com/jomagalo/dgi-node/blockchain/types"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/ipfs"
+	"github.com/jomagalo/dgi-node/log"
+	models "github.com/jomagalo/dgi-node/protobuf"
 	dbm "github.com/tendermint/tm-db"
 	"time"
 )

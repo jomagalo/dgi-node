@@ -2,10 +2,10 @@ package main
 
 import (
 	"github.com/coreos/go-semver/semver"
-	"github.com/idena-network/idena-go/config"
-	"github.com/idena-network/idena-go/database"
-	"github.com/idena-network/idena-go/log"
-	"github.com/idena-network/idena-go/node"
+	"github.com/jomagalo/dgi-node/config"
+	"github.com/jomagalo/dgi-node/database"
+	"github.com/jomagalo/dgi-node/log"
+	"github.com/jomagalo/dgi-node/node"
 	"github.com/urfave/cli"
 	"io/ioutil"
 	"os"

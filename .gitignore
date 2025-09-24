@@ -60,7 +60,7 @@ testdata2
 *.dll
 *.so
 *.dylib
-**/idena-go
+**/dgi-node
 *.db
 config.json
 /config2.json

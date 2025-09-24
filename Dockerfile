@@ -8,8 +8,8 @@ WORKDIR /home
 
 RUN apt-get update && \
     apt-get  install -y jq wget
-RUN wget https://api.github.com/repos/idena-network/idena-go/releases/latest
-RUN wget -O "./idena" $(jq --raw-output '.assets | map(select(.name | startswith("idena-node-linux"))) | .[0].browser_download_url' "./latest")
+RUN wget https://api.github.com/repos/jomagalo/dgi-node/releases/latest
+RUN wget -O "./idena" $(jq --raw-output '.assets | map(select(.name | startswith("dgi-node-linux"))) | .[0].browser_download_url' "./latest")
 
 FROM ubuntu
 

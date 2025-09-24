@@ -2,8 +2,8 @@ package types
 
 import (
 	"crypto/ecdsa"
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/crypto"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/crypto"
 )
 
 // SignFlipKey returns flip key signed with given private key

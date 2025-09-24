@@ -2,10 +2,10 @@ package state
 
 import (
 	"bytes"
-	"github.com/idena-network/idena-go/blockchain/types"
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/crypto"
-	"github.com/idena-network/idena-go/database"
+	"github.com/jomagalo/dgi-node/blockchain/types"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/crypto"
+	"github.com/jomagalo/dgi-node/database"
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tm-db"
 	"math/big"

@@ -1,4 +1,4 @@
-module github.com/idena-network/idena-go
+module github.com/jomagalo/dgi-node
 
 require (
 	github.com/RoaringBitmap/roaring v0.9.4
@@ -50,7 +50,7 @@ require (
 	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce
 )
 
-require github.com/idena-network/idena-wasm-binding v0.0.0-20230503080211-4227b9778d3d
+require github.com/jomagalo/dgi-wasm-binding v0.0.0-20250923142228-35e8cb36068a
 
 require (
 	bazil.org/fuse v0.0.0-20200407214033-5883e5a4b512 // indirect
@@ -276,8 +276,8 @@ require (
 	lukechampine.com/blake3 v1.1.7 // indirect
 )
 
-replace github.com/cosmos/iavl => github.com/idena-network/iavl v0.12.3-0.20211223100228-a33b117aa31e
+replace github.com/cosmos/iavl => github.com/jomagalo/iavl v0.12.3-0.20211223100228-a33b117aa31e
 
-//replace github.com/idena-network/idena-wasm-binding => ..\idena-wasm-binding
+//replace github.com/jomagalo/dgi-wasm-binding => ..\dgi-wasm-binding
 
 go 1.17

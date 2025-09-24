@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/idena-network/idena-go/common/hexutil"
+	"github.com/jomagalo/dgi-node/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

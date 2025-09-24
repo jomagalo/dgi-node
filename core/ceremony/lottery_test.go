@@ -3,7 +3,7 @@ package ceremony
 import (
 	"encoding/binary"
 	"github.com/google/tink/go/subtle/random"
-	"github.com/idena-network/idena-go/common"
+	"github.com/jomagalo/dgi-node/common"
 	"github.com/stretchr/testify/require"
 	"math/rand"
 	"testing"

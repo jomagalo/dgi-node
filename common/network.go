@@ -1,7 +1,7 @@
 package common
 
 import (
-	math2 "github.com/idena-network/idena-go/common/math"
+	math2 "github.com/jomagalo/dgi-node/common/math"
 	"github.com/shopspring/decimal"
 	"math"
 	"math/big"

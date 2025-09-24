@@ -2,11 +2,11 @@ package attachments
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/idena-network/idena-go/blockchain/types"
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/crypto"
-	"github.com/idena-network/idena-go/crypto/ecies"
-	models "github.com/idena-network/idena-go/protobuf"
+	"github.com/jomagalo/dgi-node/blockchain/types"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/crypto"
+	"github.com/jomagalo/dgi-node/crypto/ecies"
+	models "github.com/jomagalo/dgi-node/protobuf"
 )
 
 type ShortAnswerAttachment struct {

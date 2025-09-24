@@ -2,20 +2,20 @@
 
 Golang implementation of the Idena network node
 
-[![Build Status](https://travis-ci.com/idena-network/idena-go.svg?branch=master)](https://travis-ci.com/idena-network/idena-go)
+[![Build Status](https://travis-ci.com/jomagalo/dgi-node.svg?branch=master)](https://travis-ci.com/jomagalo/dgi-node)
 
 ## Building the source
 
-Building `idena-go` required a Go (version 1.16 or later) and a C compiler. `idena-go` uses Go modules as a dependency manager. 
+Building `dgi-node` required a Go (version 1.16 or later) and a C compiler. `dgi-node` uses Go modules as a dependency manager. 
 Once the dependencies are installed, run
 
 ```shell
 go build
 ```
 
-## Running `idena-go`
+## Running `dgi-node`
 
-To connect to idena `experimental mainnet` network run executable without parameters. `idena-go` uses `go-ipfs` and private ipfs network to store data.
+To connect to idena `experimental mainnet` network run executable without parameters. `dgi-node` uses `go-ipfs` and private ipfs network to store data.
 
 ### CLI parameters
 
@@ -38,7 +38,7 @@ To connect to idena `experimental mainnet` network run executable without parame
 ### JSON config
 
 
-Custom json configuration can be used if `--config=<config file name>` parameter is specified. Use `server` IPFS profile if you run `idena-go` on VPS to prevent local network scanning.
+Custom json configuration can be used if `--config=<config file name>` parameter is specified. Use `server` IPFS profile if you run `dgi-node` on VPS to prevent local network scanning.
 ```json
 {
   "DataDir": "datadir",
@@ -106,4 +106,4 @@ For debug purposes you can run local automine node with this config.
 * `Network` - should be different from 1 or 2, any `uint32` number
 * `Ipfs bootnodes` - array of bootstrap nodes in case of running multiple local nodes
 
-For more detailed configuration please see [config structure](https://github.com/idena-network/idena-go/blob/master/config/config.go#L26)
+For more detailed configuration please see [config structure](https://github.com/jomagalo/dgi-node/blob/master/config/config.go#L26)

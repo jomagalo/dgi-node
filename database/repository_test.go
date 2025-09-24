@@ -2,8 +2,8 @@ package database
 
 import (
 	"crypto/rand"
-	"github.com/idena-network/idena-go/blockchain/types"
-	"github.com/idena-network/idena-go/common"
+	"github.com/jomagalo/dgi-node/blockchain/types"
+	"github.com/jomagalo/dgi-node/common"
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tm-db"
 	"testing"

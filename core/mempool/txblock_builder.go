@@ -1,11 +1,11 @@
 package mempool
 
 import (
-	"github.com/idena-network/idena-go/blockchain/fee"
-	"github.com/idena-network/idena-go/blockchain/types"
-	"github.com/idena-network/idena-go/blockchain/validation"
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/core/appstate"
+	"github.com/jomagalo/dgi-node/blockchain/fee"
+	"github.com/jomagalo/dgi-node/blockchain/types"
+	"github.com/jomagalo/dgi-node/blockchain/validation"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/core/appstate"
 	"math/big"
 )
 

@@ -25,7 +25,7 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/idena-network/idena-go/log"
+	"github.com/jomagalo/dgi-node/log"
 )
 
 // fileCache is a cache of files seen during scan of keystore.

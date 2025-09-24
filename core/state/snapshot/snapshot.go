@@ -2,8 +2,8 @@ package snapshot
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/idena-network/idena-go/common"
-	models "github.com/idena-network/idena-go/protobuf"
+	"github.com/jomagalo/dgi-node/common"
+	models "github.com/jomagalo/dgi-node/protobuf"
 )
 
 type Manifest struct {

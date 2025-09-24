@@ -2,11 +2,11 @@ package mempool
 
 import (
 	"encoding/json"
-	"github.com/idena-network/idena-go/blockchain/types"
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/common/hexutil"
-	"github.com/idena-network/idena-go/crypto"
-	"github.com/idena-network/idena-go/log"
+	"github.com/jomagalo/dgi-node/blockchain/types"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/common/hexutil"
+	"github.com/jomagalo/dgi-node/crypto"
+	"github.com/jomagalo/dgi-node/log"
 	"io/ioutil"
 	"os"
 	"path/filepath"

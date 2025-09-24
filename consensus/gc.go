@@ -2,9 +2,9 @@ package consensus
 
 import (
 	"fmt"
-	"github.com/idena-network/idena-go/common/math"
-	"github.com/idena-network/idena-go/core/state"
-	"github.com/idena-network/idena-go/events"
+	"github.com/jomagalo/dgi-node/common/math"
+	"github.com/jomagalo/dgi-node/core/state"
+	"github.com/jomagalo/dgi-node/events"
 	"time"
 )
 

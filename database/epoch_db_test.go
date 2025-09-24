@@ -1,8 +1,8 @@
 package database
 
 import (
-	"github.com/idena-network/idena-go/common"
-	"github.com/idena-network/idena-go/tests"
+	"github.com/jomagalo/dgi-node/common"
+	"github.com/jomagalo/dgi-node/tests"
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tm-db"
 	"testing"

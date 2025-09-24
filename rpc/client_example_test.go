@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/idena-network/idena-go/rpc"
+	"github.com/jomagalo/dgi-node/rpc"
 )
 
 // In this example, our client whishes to track the latest 'block number'

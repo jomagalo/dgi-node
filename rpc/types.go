@@ -24,7 +24,7 @@ import (
 	"sync"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/idena-network/idena-go/common/hexutil"
+	"github.com/jomagalo/dgi-node/common/hexutil"
 )
 
 // API describes the set of methods offered over the RPC interface

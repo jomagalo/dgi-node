@@ -42,11 +42,11 @@ jobs:
           gitTag=${{ steps.tag.outputs.tag }}
           tag=${gitTag:1}
           if [[ "$RUNNER_OS" == "Linux" ]]; then
-            asset_name="idena-node-linux-${tag}"
+            asset_name="dgi-node-linux-${tag}"
           elif [[ "$RUNNER_OS" == "macOS" ]]; then
-            asset_name="idena-node-mac-${tag}"
+            asset_name="dgi-node-mac-${tag}"
           else
-            asset_name="idena-node-win-${tag}.exe"
+            asset_name="dgi-node-win-${tag}.exe"
           fi
           echo "GIT_TAG=${tag}" >> $GITHUB_ENV
           echo "ASSET_NAME=${asset_name}" >> $GITHUB_ENV
@@ -80,7 +80,7 @@ jobs:
           run: |
             gitTag=${{ steps.tag.outputs.tag }}
             tag=${gitTag:1}                    
-            asset_name="idena-node-linux-aarch64-${tag}"                    
+            asset_name="dgi-node-linux-aarch64-${tag}"                    
             echo "GIT_TAG=${tag}" >> $GITHUB_ENV
             echo "ASSET_NAME=${asset_name}" >> $GITHUB_ENV
         - uses: wangyoucao577/go-release-action@v1
@@ -91,5 +91,5 @@ jobs:
             goarch: ${{ matrix.goarch }}
             goversion: 1.19
             ldflags: "-X main.version=${{ env.GIT_TAG }}"
-            binary_name: "idena-node"
+            binary_name: "dgi-node"
             asset_name: ${{env.ASSET_NAME}}
