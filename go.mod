@@ -276,7 +276,7 @@ require (
 	lukechampine.com/blake3 v1.1.7 // indirect
 )
 
-replace github.com/cosmos/iavl => github.com/jomagalo/iavl v0.12.3-0.20211223100228-a33b117aa31e
+replace github.com/cosmos/iavl => github.com/jomagalo/iavl v0.12.3-0.20250923174660-2290a86e23ac
 
 //replace github.com/jomagalo/dgi-wasm-binding => ..\dgi-wasm-binding
 
