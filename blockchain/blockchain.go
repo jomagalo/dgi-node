@@ -47,7 +47,7 @@ import (
 )
 
 const (
-	Mainnet types.Network = 0x1
+	Mainnet types.Network = 0x4
 )
 
 const (
