@@ -50,7 +50,7 @@ require (
 	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce
 )
 
-require github.com/jomagalo/dgi-wasm-binding v0.0.0-20250923142228-35e8cb36068a
+require github.com/jomagalo/idena-wasm-binding v0.0.1-20250923142228
 
 require (
 	bazil.org/fuse v0.0.0-20200407214033-5883e5a4b512 // indirect
@@ -276,8 +276,14 @@ require (
 	lukechampine.com/blake3 v1.1.7 // indirect
 )
 
-replace github.com/cosmos/iavl => github.com/jomagalo/iavl v0.12.3-0.20250923174660-2290a86e23ac
+replace github.com/cosmos/iavl => github.com/idena-network/iavl v0.12.3-0.20211223100228-a33b117aa31e
 
-//replace github.com/jomagalo/dgi-wasm-binding => ..\dgi-wasm-binding
+//replace github.com/cosmos/iavl => github.com/jomagalo/iavl v0.12.3-0.20210105101507-8e4a4114b5fa
+
+//replace github.com/cosmos/iavl => ../test/iavl
+
+//replace github.com/cosmos/iavl => github.com/jomagalo/iavl v0.12.3-0.20250923174660-2290a86e23ac
+
+//replace github.com/jomagalo/idena-wasm-binding => ..\idena-wasm-binding
 
 go 1.17

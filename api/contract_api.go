@@ -16,7 +16,7 @@ import (
 	"github.com/jomagalo/dgi-node/vm/costs"
 	"github.com/jomagalo/dgi-node/vm/env"
 	"github.com/jomagalo/dgi-node/vm/helpers"
-	models "github.com/jomagalo/dgi-wasm-binding/lib/protobuf"
+	models "github.com/jomagalo/idena-wasm-binding/lib/protobuf"
 	"github.com/pkg/errors"
 	"github.com/shopspring/decimal"
 	"math/big"

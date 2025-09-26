@@ -8,7 +8,7 @@ import (
 	"github.com/jomagalo/dgi-node/log"
 	"github.com/jomagalo/dgi-node/stats/collector"
 	"github.com/jomagalo/dgi-node/vm/costs"
-	"github.com/jomagalo/dgi-wasm-binding/lib"
+	"github.com/jomagalo/idena-wasm-binding/lib"
 	"github.com/pkg/errors"
 	"math/big"
 	"regexp"

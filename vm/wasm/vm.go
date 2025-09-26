@@ -10,7 +10,7 @@ import (
 	"github.com/jomagalo/dgi-node/core/appstate"
 	"github.com/jomagalo/dgi-node/stats/collector"
 	"github.com/jomagalo/dgi-node/vm/costs"
-	"github.com/jomagalo/dgi-wasm-binding/lib"
+	"github.com/jomagalo/idena-wasm-binding/lib"
 )
 
 type WasmVM struct {
