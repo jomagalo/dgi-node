@@ -21,7 +21,7 @@ require (
 	github.com/ipfs/go-unixfs v0.4.0
 	github.com/ipfs/interface-go-ipfs-core v0.7.0
 	github.com/ipfs/kubo v0.15.0
-	github.com/klauspost/compress v1.15.5
+	github.com/klauspost/compress v1.18.0
 	github.com/libp2p/go-libp2p-core v0.19.1
 	github.com/libp2p/go-libp2p-pubsub v0.6.1
 	github.com/libp2p/go-msgio v0.2.0
@@ -286,4 +286,4 @@ replace github.com/cosmos/iavl => github.com/idena-network/iavl v0.12.3-0.202112
 
 //replace github.com/jomagalo/dgi-wasm-binding => ..\dgi-wasm-binding
 
-go 1.17
+go 1.22
