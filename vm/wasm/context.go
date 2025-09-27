@@ -4,7 +4,7 @@ import (
 	"github.com/jomagalo/dgi-node/blockchain/attachments"
 	"github.com/jomagalo/dgi-node/blockchain/types"
 	"github.com/jomagalo/dgi-node/common"
-	"github.com/jomagalo/idena-wasm-binding/lib"
+	"github.com/jomagalo/dgi-wasm-binding/lib"
 	"math/big"
 )
 

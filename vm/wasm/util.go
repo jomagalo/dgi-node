@@ -3,7 +3,7 @@ package wasm
 import (
 	"github.com/jomagalo/dgi-node/common"
 	"github.com/jomagalo/dgi-node/crypto"
-	"github.com/jomagalo/idena-wasm-binding/lib"
+	"github.com/jomagalo/dgi-wasm-binding/lib"
 )
 
 func ComputeContractAddrWithUnpackedArgs(code []byte, args [][]byte, nonce []byte) common.Address {
