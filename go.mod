@@ -24,7 +24,7 @@ require (
 	github.com/klauspost/compress v1.15.5
 	github.com/libp2p/go-libp2p-core v0.19.1
 	github.com/libp2p/go-libp2p-pubsub v0.6.1
-	github.com/libp2p/go-msgio v0.2.0
+	github.com/libp2p/go-msgio v0.3.0
 	github.com/libp2p/go-yamux v1.4.1
 	github.com/mholt/archiver/v3 v3.5.1-0.20210112195346-074da64920d3
 	github.com/multiformats/go-multiaddr v0.6.0
@@ -45,7 +45,7 @@ require (
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e
 	golang.org/x/net v0.0.0-20220630215102-69896b714898
 	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a
-	google.golang.org/protobuf v1.28.0
+	google.golang.org/protobuf v1.28.1
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
 	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce
 )
